@@ -1,0 +1,100 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1A535C;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+nav {
+    color: #2e3131;
+    background-color: #F7FFF7;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 150px 14%;
+}
+
+.skills {
+    margin: 100px 0;
+    padding: 150px 0;
+    background-image: url("images/background.svg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    color: white;
+    width: 55%;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: wrap; 
+    width: 1000px;
+}
+
+.skill-list div {
+    padding: 40px;
+}
+
+.skill-list p {
+    font-weight: bolder;
+    color: #312F2F;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+p {
+    font-size: 23px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.image p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    gap: 10px;
+}
+
+.skill-icon {
+    width: 100px;
+}
+
+.main-img {
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 0 90px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
