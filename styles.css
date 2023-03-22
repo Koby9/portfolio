@@ -1,6 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #1A535C;
+    /* background-color: #1A535C; */
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -23,11 +23,13 @@ header {
     justify-content: space-between;
     align-items: center;
     color: white;
-    margin: 150px 14%;
+    padding: 10% 14%;
+    background-color: #1A535C;
+    gap: 100px;
 }
 
 .skills {
-    margin: 100px 0;
+    background-color: #1A535C;
     padding: 150px 0;
     background-image: url("images/background.svg");
     display: flex;
@@ -37,7 +39,8 @@ header {
 
 .about {
     color: white;
-    width: 55%;
+    width: 95%;
+    padding: 5px;
 }
 
 .skill-list {
@@ -45,7 +48,7 @@ header {
     justify-content: center;
     text-align: center;
     flex-flow: wrap; 
-    width: 1000px;
+    width: 70%;
     margin: 75px 0;
 }
 
@@ -68,14 +71,15 @@ header {
 
 .projects {
     text-align: center;
+    background-color: #1A535C;
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
-    margin: 75px auto;
+    margin: 10px auto;
+    padding: 0 15%;
     flex-flow: wrap;
-    width: 1200px;
 }
 
 .project-container h3, .project-container p {
@@ -91,7 +95,7 @@ header {
 }
 
 .project {
-    width: 500px;
+    width: 400px;
     margin: 30px;
 }
 
@@ -101,7 +105,7 @@ header {
     border-radius: 5px;
     width: 170px;
     height: 60px;
-    margin: 21px;
+    margin: 11px;
     font-family: inherit;
     font-weight: bolder;
     font-size: 17px;
@@ -114,7 +118,7 @@ header {
 
 .contact-me {
     background-color: #F7FFF7;
-    padding: 100px 0 100px 400px;
+    padding: 100px 0 100px 30%;
 }
 
 .contact-me div {
@@ -160,6 +164,7 @@ h2 {
 
 .main-img {
     border-radius: 10px;
+    width: 500px;
 }
 
 ul {
@@ -171,10 +176,100 @@ ul {
 }
 
 li {
-    padding: 0 90px;
+    padding: 0 10%;
 }
 
 h1 {
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 1400px) {
+    .skills {
+        background-image: url("images/background-mobile.svg");
+        background-repeat: repeat-x;
+    }
+
+    header {
+        flex-direction: column-reverse;
+        padding: 100px 20px;
+        gap: 0;
+    }
+
+    .main-img {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    nav {
+        font-size: 13px;
+    }
+
+    .contact-me {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .contact-me p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    p {
+        font-size: 17px;
+    }
+    
+    h2 {
+        font-size: 23px;
+    }
+
+    .section-title {
+        font-size: 23px;
+    }
+
+    .skills {
+        padding: 110px 0;
+    }
+
+    .skills img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .project-image {
+        width: 100%;
+    }
+
+    .projects {
+        padding: 90px;
+    }
+    
+    .project-container {
+        padding: 0 5%;
+    }
+
+    .project-container p {
+        font-size: 12px;
+    }
+    
+    .project-container h3 {
+        font-size: 1.5em;
+    }
+
+    .project-button {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        margin: 10px 0 0 0;
+    }
+
+    .contact-me img {
+        width: 20px;
+        height: 20px;
+    }
 }
