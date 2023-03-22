@@ -6,13 +6,16 @@ body {
     margin: 0;
 }
 
-nav {
+a {
     color: #2e3131;
+    text-decoration: none;
+}
+
+nav {
     background-color: #F7FFF7;
     font-weight: bold;
     margin: 0;
     padding: 20px;
-    border-radius: 5px;
 }
 
 header {
@@ -43,6 +46,7 @@ header {
     text-align: center;
     flex-flow: wrap; 
     width: 1000px;
+    margin: 75px 0;
 }
 
 .skill-list div {
@@ -52,6 +56,82 @@ header {
 .skill-list p {
     font-weight: bolder;
     color: #312F2F;
+}
+
+.skills .section-title, .contact-me .section-title {
+    color: #2E2D2D;
+}
+
+.projects .section-title {
+    color: white;
+}
+
+.projects {
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 75px auto;
+    flex-flow: wrap;
+    width: 1200px;
+}
+
+.project-container h3, .project-container p {
+    color: white;
+}
+
+.project-container p {
+    font-size: 19px;
+}
+
+.project-container h3 {
+    font-size: 2em;
+}
+
+.project {
+    width: 500px;
+    margin: 30px;
+}
+
+.project-button {
+    background-color: #FFE66D;
+    border: none;
+    border-radius: 5px;
+    width: 170px;
+    height: 60px;
+    margin: 21px;
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 17px;
+    color: #312F2F;
+}
+
+.project-button:hover {
+    cursor: pointer;
+}
+
+.contact-me {
+    background-color: #F7FFF7;
+    padding: 100px 0 100px 400px;
+}
+
+.contact-me div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 40px;
+}
+
+.contact-me p {
+    padding: 0 15px;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.section-title {
+    font-size: 4em;
 }
 
 h1 {
