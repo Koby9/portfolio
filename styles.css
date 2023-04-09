@@ -77,7 +77,7 @@ header {
 .project-container {
     display: flex;
     justify-content: space-around;
-    margin: 10px auto;
+    margin: 70px auto;
     padding: 0 15%;
     flex-flow: wrap;
 }
@@ -87,7 +87,8 @@ header {
 }
 
 .project-container p {
-    font-size: 19px;
+    font-size: 17px;
+    padding-bottom: 32px;
 }
 
 .project-container h3 {
@@ -95,21 +96,27 @@ header {
 }
 
 .project {
-    width: 400px;
+    width: 460px;
     margin: 30px;
+    padding-bottom: 100px;
+}
+
+.project-image {
+    border-radius: 5px;
+    border: 5px solid #ffffff;
 }
 
 .project-button {
     background-color: #FFE66D;
     border: none;
     border-radius: 5px;
-    width: 170px;
-    height: 60px;
-    margin: 11px;
+    padding: 14px 30px;
+    margin: 12px;
     font-family: inherit;
     font-weight: bolder;
     font-size: 17px;
     color: #312F2F;
+    display: inline;
 }
 
 .project-button:hover {
@@ -250,7 +257,7 @@ h1 {
     }
 
     .project-image {
-        width: 100%;
+        width: 80%;
     }
 
     .projects {
@@ -270,12 +277,12 @@ h1 {
         font-size: 1.5em;
     }
 
-    .project-button {
+    /* .project-button {
         width: 100px;
         height: 40px;
         font-size: 12px;
         margin: 10px 0 0 0;
-    }
+    } */
 
     .contact-me img {
         width: 20px;
